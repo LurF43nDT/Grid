@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    height: 50vh;
+}
+.mainstyle{
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    gap: 15px;
+}
+.gridbox{
+    background-color: chocolate;
+    min-height: 150px;
+}
+
+#first{
+grid-area: 1/1/2/9;
+}
+#kirkimg{
+    max-width: 100%;
+}
+
+#second{
+grid-area: 2/1/3/3;
+}
+#linkimg{
+    max-width: 100%;
+}
+
+#third{
+grid-area: 2/3/3/6;
+}
+#skateimg{
+    max-width: 100%;
+}
+
+#fourth{
+grid-area: 2/6/3/9;
+}
+#yugoimg{
+    max-width: 100%;
+}
+
+#fifth{
+    grid-area: 5/1/3/9;
+}
+#jinximg{
+    max-width: 100%;
+}
