@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgb(75, 1, 1);
     height: 50vh;
 }
 .mainstyle{
@@ -8,43 +8,32 @@ body{
     gap: 15px;
 }
 .gridbox{
-    background-color: chocolate;
-    min-height: 100px;
-    min-width: 100px;
+    background-color: rgba(78, 78, 78, 0.637);
+    min-height: 150px;
 }
 
 #first{
-grid-area: 1/1/2/9;
+grid-area: 1/5/2/9;
 }
 #kirkimg{
     max-width: 100%;
 }
 
 #second{
-grid-area: 2/1/3/3;
-}
-#linkimg{
-    max-width: 100%;
+grid-area: 1/1/2/5;
 }
 
 #third{
-grid-area: 2/3/3/6;
-}
-#skateimg{
-    max-width: 100%;
+grid-area: 2/1/3/5;
 }
 
 #fourth{
-grid-area: 2/6/3/9;
-}
-#yugoimg{
-    max-width: 100%;
+grid-area: 2/5/3/9;
 }
 
 #fifth{
-    grid-area: 5/1/3/9;
+    grid-area: 5/2/3/9;
 }
 #jinximg{
     max-width: 100%;
-    justify-content: space-between;
 }
